@@ -4,6 +4,8 @@ Simulation of CRISPR-Cas9 Editing on Evolving Barcode and Accuracy of Lineage Tr
 
 This project is under collaboration with Dr. Yipeng Yang, Department of Mathematics and Statistics, University of Houston (yangy@uhcl.edu).
 
+The related manuscript is under revision.
+
 ## File Description for the Simulation Code
 
 ### main.m
