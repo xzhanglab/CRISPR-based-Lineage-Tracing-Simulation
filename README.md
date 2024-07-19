@@ -8,9 +8,6 @@ The related manuscript is under revision.
 
 ## File Description for the Simulation Code
 
-### main.m
-This file contains the command to specify the parameters used for simulations; running this file in MATLAB will initiate the simulations. All detailed explanations of each parameter can be found in the command line annotation.
-
 <details>
 <summary>How to run the simulations?</summary>
 <br>
