@@ -11,6 +11,34 @@ The related manuscript is under revision.
 ### main.m
 This file contains the command to specify the parameters used for simulations; running this file in MATLAB will initiate the simulations. All detailed explanations of each parameter can be found in the command line annotation.
 
+<details>
+<summary>How to run the simulations?</summary>
+<br>
+1. Please put all code files in the same folder to run the program.
+2. Please run main.m to start this program.
+3. The first portion in main.m is on parameter setting. 
+4. The second portion in main.m is on simulation of single barcode. funbarnew ñ RMP method; funbarnewRMPNF - RMPNF method; funbarNBJ ñ NBJ method; funbarNBJNF ñ NBJNF method. Calculated lineage accuracy is stored in the corresponding vector ëaccuracy***.í When a certain method is used, please make sure to display the correct vector.
+5. The third portion in main.m is on simulation of two barcodes. funbarNBJ2 ñ NBJ method; funbarNBJ2trbk ñ NBJNF method. This portion requires one more parameter ñ propmi - which stands for proportion of match on individual barcode.
+6. One may modify second or third portion to run a method for several times at once. The following is an example to run RMP method for 10 times:
+
+
+mcit = 10; % Monte Carlo simulation iteration number
+
+accuracyRMP = zeros(mcit,2);  
+ 
+for i = 1:mcit
+
+	[accuracyRMP(i,1), accuracyRMP(i,2)]=funbarnew(n,it,propm,ss,mupb,ins_sub,lgdelprob,divp,clive, pulse, trbk); % RMP method
+
+end
+
+disp('RMP - Accuracy of all internal nodes');
+        accuracyRMP(:,1)
+
+disp('RMP - Accuracy of all dividing nodes');
+        accuracyRMP(:,2)
+</details>
+
 ### btree.m
 This file/function contains the implementation of a binary tree, a function to manipulate a binary tree structure.
 
