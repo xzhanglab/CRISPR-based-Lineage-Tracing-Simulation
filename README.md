@@ -12,7 +12,7 @@ The related manuscript is under revision.
 <summary>How to run the simulations?</summary>
 <br>
 
-1. Please put all code files in the same folder to run the program.
+1. Please put all code/main program/ files in the same folder to run the program.
 
 2. Please run `main.m` to start this program.
 
