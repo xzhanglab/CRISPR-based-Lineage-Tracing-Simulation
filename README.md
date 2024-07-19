@@ -14,8 +14,8 @@ This file contains the command to specify the parameters used for simulations; r
 <details>
 <summary>How to run the simulations?</summary>
 <br>
-1. Please put all code files in the same folder to run the program.
-2. Please run main.m to start this program.
+&nbsp;1. Please put all code files in the same folder to run the program.
+&nbsp;2. Please run main.m to start this program.
 3. The first portion in main.m is on parameter setting. 
 4. The second portion in main.m is on simulation of single barcode. funbarnew ñ RMP method; funbarnewRMPNF - RMPNF method; funbarNBJ ñ NBJ method; funbarNBJNF ñ NBJNF method. Calculated lineage accuracy is stored in the corresponding vector ëaccuracy***.í When a certain method is used, please make sure to display the correct vector.
 5. The third portion in main.m is on simulation of two barcodes. funbarNBJ2 ñ NBJ method; funbarNBJ2trbk ñ NBJNF method. This portion requires one more parameter ñ propmi - which stands for proportion of match on individual barcode.
