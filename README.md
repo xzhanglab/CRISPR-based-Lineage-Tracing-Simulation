@@ -15,8 +15,11 @@ This file contains the command to specify the parameters used for simulations; r
 <summary>How to run the simulations?</summary>
 <br>
 1. Please put all code files in the same folder to run the program.
+
 2. Please run `main.m` to start this program.
+
 3. The first portion in `main.m` is on parameter setting.
+
 4. The second portion in `main.m` is on simulation of a single barcode:
     - `funbarnew` - RMP method
     - `funbarnewRMPNF` - RMPNF method
@@ -24,11 +27,13 @@ This file contains the command to specify the parameters used for simulations; r
     - `funbarNBJNF` - NBJNF method
 
     Calculated lineage accuracy is stored in the corresponding vector `accuracy***`. When a certain method is used, please ensure to display the correct vector.
+
 5. The third portion in `main.m` is on simulation of two barcodes:
     - `funbarNBJ2` - NBJ method
     - `funbarNBJ2trbk` - NBJNF method
 
     This portion requires one more parameter `propmi`, which stands for proportion of match on individual barcode.
+
 6. One may modify the second or third portion to run a method multiple times at once. The following is an example to run the RMP method 10 times:
 
     ```matlab
@@ -46,6 +51,7 @@ This file contains the command to specify the parameters used for simulations; r
     disp('RMP - Accuracy of all dividing nodes');
     accuracyRMP(:,2)
     ```
+
 
 </details>
 
