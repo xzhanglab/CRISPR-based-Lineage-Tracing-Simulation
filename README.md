@@ -14,6 +14,7 @@ This file contains the command to specify the parameters used for simulations; r
 <details>
 <summary>How to run the simulations?</summary>
 <br>
+
 1. Please put all code files in the same folder to run the program.
 
 2. Please run `main.m` to start this program.
