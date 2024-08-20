@@ -5,16 +5,6 @@ Simulation of CRISPR-Cas9 Editing on Evolving Barcode and Accuracy of Lineage Tr
 This project is under collaboration with Dr. Yipeng Yang, Department of Mathematics and Statistics, University of Houston (yangy@uhcl.edu).
 
 
-## References
-
-   **Liu, Fengshuo., Zhang, Xiang., Yang, Yipeng. (2024).**  
-   "Simulation of CRISPR-Cas9 editing on evolving barcode and accuracy of lineage tracing."  
-   *Scientific Reports*, 14(1): 19213.  
-   [Link to Article]10.1038/s41598-024-70154-7
-
-   *Summary*: We designed a simulation program that mimics CRISPR-Cas9 editing on evolving barcodes and the double-strand break repair process during cell divisions. Barcode mutations build sequentially with each generation, resulting in unique mutation profiles for each cell. We sampled barcodes from leaf cells, reconstructed the lineage, and compared it to the original tree to test algorithm accuracy under different parameters. Our simulations highlight the importance of sampling size, barcode length, indel probabilities, and Cas9 activity for accurate lineage tracing. We found that sampling size and indel probabilities significantly impact accuracy, with large segment deletions in early generations potentially reducing lineage accuracy. These results offer recommendations for optimizing Cas9-mediated molecular barcodes in experiments.
-
-
 ## File Description for the Simulation Code
 
 <details>
@@ -118,3 +108,14 @@ This function checks the validity of cell numbers in each generation of a lineag
 Both functions compare the similarity between two vectors `s` and `t`, and return a similarity score (`y`) and an optional matching string (`ost`). `vcomp5` performs similarity comparisons between vectors using a simpler 5x5 scoring matrix without handling consecutive matches or mismatches, while `vcomp_cons` uses a more complex 4x4 scoring matrix with additional handling for consecutive matches and mismatch penalties.
 
 </details>
+
+
+## References
+
+   **Liu, Fengshuo., Zhang, Xiang., Yang, Yipeng. (2024).**  
+   "Simulation of CRISPR-Cas9 editing on evolving barcode and accuracy of lineage tracing."  
+   *Scientific Reports*, 14(1): 19213.  
+   [Link to Article]10.1038/s41598-024-70154-7
+
+   *Summary*: We designed a simulation program that mimics CRISPR-Cas9 editing on evolving barcodes and the double-strand break repair process during cell divisions. Barcode mutations build sequentially with each generation, resulting in unique mutation profiles for each cell. We sampled barcodes from leaf cells, reconstructed the lineage, and compared it to the original tree to test algorithm accuracy under different parameters. Our simulations highlight the importance of sampling size, barcode length, indel probabilities, and Cas9 activity for accurate lineage tracing. We found that sampling size and indel probabilities significantly impact accuracy, with large segment deletions in early generations potentially reducing lineage accuracy. These results offer recommendations for optimizing Cas9-mediated molecular barcodes in experiments.
+
