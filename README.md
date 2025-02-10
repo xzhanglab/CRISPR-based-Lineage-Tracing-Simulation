@@ -119,3 +119,8 @@ Both functions compare the similarity between two vectors `s` and `t`, and retur
 
    *Summary*: We designed a simulation program that mimics CRISPR-Cas9 editing on evolving barcodes and the double-strand break repair process during cell divisions. Barcode mutations build sequentially with each generation, resulting in unique mutation profiles for each cell. We sampled barcodes from leaf cells, reconstructed the lineage, and compared it to the original tree to test algorithm accuracy under different parameters. Our simulations highlight the importance of sampling size, barcode length, indel probabilities, and Cas9 activity for accurate lineage tracing. We found that sampling size and indel probabilities significantly impact accuracy, with large segment deletions in early generations potentially reducing lineage accuracy. These results offer recommendations for optimizing Cas9-mediated molecular barcodes in experiments.
 
+## in vitro data used for simulations   
+Gong W, Granados AA, Hu J, Jones MG, Raz O, Salvador-Martínez I, Zhang H, Chow KK, Kwak IY, Retkute R, Prusokiene A, Prusokas A, Khodaverdian A, Zhang R, Rao S, Wang R, Rennert P, Saipradeep VG, Sivadasan N, Rao A, Joseph T, Srinivasan R, Peng J, Han L, Shang X, Garry DJ, Yu T, Chung V, Mason M, Liu Z, Guan Y, Yosef N, Shendure J, Telford MJ, Shapiro E, Elowitz MB, Meyer P. Benchmarked approaches for reconstruction of in vitro cell lineages and in silico models of C. elegans and M. musculus developmental trees. Cell Syst. 2021 Aug 18;12(8):810-826.e4. doi: 10.1016/j.cels.2021.05.008. Epub 2021 Jun 18. PMID: 34146472.
+
+
+
